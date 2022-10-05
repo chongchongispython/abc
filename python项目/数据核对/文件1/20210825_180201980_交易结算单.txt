@@ -1,0 +1,33 @@
+                                          中信期货有限公司                                          
+                                                                    制表时间 Creation Date：20210825
+----------------------------------------------------------------------------------------------------
+                             交易结算单(盯市) Settlement Statement(MTM)                             
+客户号 Client ID：  180201980          客户名称 Client Name：AA基金管理股份有限公司
+日期 Date：20210825
+
+                   资金状况  币种：人民币  Account Summary  Currency：CNY 
+----------------------------------------------------------------------------------------------------
+期初结存 Balance b/f：                   531269.95  基础保证金 Initial Margin：                10.00
+出 入 金 Deposit/Withdrawal：                 0.00  期末结存 Balance c/f：                 531269.95
+平仓盈亏 Realized P/L：                       0.00  质 押 金 Pledge Amount：                    0.00
+持仓盯市盈亏 MTM P/L：                        0.00  客户权益 Client Equity：：             531269.95
+期权执行盈亏 Exercise P/L：                   0.00  货币质押保证金占用 FX Pledge Occ.：         0.00
+手 续 费 Commission：                         0.00  保证金占用 Margin Occupied：                0.00
+行权手续费 Exercise Fee：                     0.00  交割保证金 Delivery Margin：                0.00
+交割手续费 Delivery Fee：                     0.00  多头期权市值 Market value(long)：           0.00
+货币质入 New FX Pledge：                      0.00  空头期权市值 Market value(short)：          0.00
+货币质出 FX Redemption：                      0.00  市值权益 Market value(equity)：        531269.95
+质押变化金额 Chg in Pledge Amt：              0.00  可用资金 Fund Avail.：                 531269.95
+权利金收入 Premium received：                 0.00  风 险 度 Risk Degree：                     0.00%
+权利金支出 Premium paid：                     0.00  应追加资金 Margin Call：                    0.00
+货币质押变化金额 Chg in FX Pledge:            0.00
+
+账户安全温馨提示
+尊敬的客户：
+    为了您的账户安全，请您妥善保管好个人身份证件等包含个人信息的物品，以防被盗；不要随意透漏账号和密码信息给其他人，并定期修改密码，密码输入过程中应注意遮挡。用作交易的计算机等设备应保证安全，安装防火墙和杀毒软件，不要点击来源不明的网络链接，不要下载未知功能用途的软件和文件。请您每日登录中国期货市场监控中心（https://investorservice.cfmmc.com/）核对账户的交易、资金信息是否正确，如发现异常情况请及时与我司联系，我司客服热线为4009908826。中信期货竭诚为您提供优质安全的服务。
+                                                                                        中信期货有限公司宣
+本结算单旨在向您提供交易的具体信息，请妥善保管。若您在合同规定时间内未对该结算单提出异议的，视作对本结算单记载事项的确认。如有疑问,请及时致电我公司(400-990-8826)。
+                                                                                        中信期货有限公司
+客户（授权人）签字：
+
+

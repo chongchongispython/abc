@@ -1,0 +1,25 @@
+import requests
+headers={
+#     ':authority': 'pro.similarweb.com'
+# ':method': 'GET'
+# ':path': '/widgetApi/WebsiteOverviewDesktop/TrafficSourcesOverview/PieChart?country=999&from=2020%7C10%7C01&includeSubDomains=true&isDaily=false&isWindow=false&keys=bebe.com&timeGranularity=Monthly&to=2020%7C12%7C31&webSource=Desktop'
+# ':scheme': 'https'
+'accept': 'application/json, text/plain, */*',
+'accept-encoding': 'gzip, deflate, br',
+'accept-language': 'zh-CN,zh;q=0.9',
+'cookie': 'locale=zh-cn; .DEVICETOKEN.SIMILARWEB.COM=BigU3oU2MyLIzjDmyyT2CtbWkeLpDMRA; _vis_opt_s=1%7C; _vis_opt_test_cookie=1; _vwo_uuid=J587A7DC7170460F9A04ABD5E25922669; _vwo_ds=3%241612450822%3A54.8750585%3A%3A; _vwo_uuid_v2=DD74ED116BA29177946BDC73E85D14158|f377b890e41ae18c782ff1a721345bd4; _ga=GA1.2.668020355.1612450826; _gid=GA1.2.226619876.1612450826; _gcl_au=1.1.881767922.1612450832; _wingify_pc_uuid=e35748d821cf44a1b317e903488340e7; _fbp=fb.1.1612450850940.549070902; _hjTLDTest=1; _hjid=0cf5af90-590d-4808-8b30-8f8530c92de0; wingify_donot_track_actions=0; intercom-id-e74067abd037cecbecb0662854f02aee12139f95=0aabaed6-8967-45a9-a920-5cbcfe4baa78; sgID=89e3ff2c-34bd-45d6-9d19-c85d07378005; _sp_id.614e=19ed2a54-e68e-4c3b-a0e5-79b3db23f6d7.1612450865.1.1612451786.1612450865.82077cfb-731e-448c-9068-c89c63de88ec; .SGTOKEN.SIMILARWEB.COM=8qGLKwePN7tl7FYDYG7dXOTf2s63teyVa479ll5FrnP0D5Ex8DQ814bVxhgJwmKugqIJ40ZzacoiHg78m_FrGvvoWI0vcmHj_Bz0ZFnl43FU8QIjLDWxxqJ8Hq5Mr1XBdMCD8CwfxINzplRrqmUzV2Q1MQEGo-yjURRmUBOARd5otaCctifeoRMRgd9RZ-9qFKSfaJca11s8jxSS40di3BsH1HE5ujCyn1CbDY-iw0jdyKhckgB2SWXV5kRTbd2faPK1pvjrucz6DlyclowA-rR_Up_34MFHtIryB5wBKfxJ14G64k3ov4AUXGRKKodgF42MJ7bg0SamiTtFTqtJX3oOPrIkeXbmAUSdG4INroYvDphxG-O3kGl5ZwjME27u3SG_8nbRouN1Xl0e1yoRS_dFt8kV5ZXF6Wa2jj4L2F2_WDb1cUPGFA_b4CJCehId; _pk_id.1.fd33=a268cad8553582d5.1612450837.1.1612451813.1612450837.; RESET_PRO_CACHE=False; intercom-session-e74067abd037cecbecb0662854f02aee12139f95=ZHdNNXpIWlMxYytRbzhDMitBMHpFM3c5T0VqWW44NGZFNk9pbU5JOFhUZnRFSDNFY0ttTVh2Uks3ZFJiSnB0ci0tQXUrRXJuUzQzVlpHSEE4L2lubnZ6UT09--cb4fa8f6499a2c8de64718909e0cb0f06ba589f6; _pk_ses.1.3432=*; _gat=1; _vwo_sn=3581%3A1; _pk_id.1.3432=4905f165447d34c1.1612451135.2.1612455571.1612452234.; mp_7ccb86f5c2939026a4b5de83b5971ed9_mixpanel=%7B%22distinct_id%22%3A%20%228914774%22%2C%22%24device_id%22%3A%20%221776d8f23897b2-0f95253ddc0532-33e3567-1fa400-1776d8f238a83e%22%2C%22url%22%3A%20%22https%3A%2F%2Fpro.similarweb.com%2F%23%2Fwebsite%2Fworldwide-overview%2Fbebe.com%2F*%2F999%2F2020.10-2020.12%3FwebSource%3DTotal%22%2C%22is_sw_user%22%3A%20false%2C%22language%22%3A%20%22zh-cn%22%2C%22section%22%3A%20%22websiteAnalysis%22%2C%22sub_section%22%3A%20%22overview%22%2C%22sub_sub_section%22%3A%20%22websitePerformance%22%2C%22page_id%22%3A%20%22analysis.overview.performance.title%22%2C%22last_event_time%22%3A%201612455571276%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22site_type%22%3A%20%22Pro%22%2C%22session_id%22%3A%20%22334b78a2-c671-4160-8de5-47942308de83%22%2C%22session_first_event_time%22%3A%20%222021-02-04T16%3A19%3A28.078Z%22%2C%22%24user_id%22%3A%20%228914774%22%2C%22sgId%22%3A%20%2289e3ff2c-34bd-45d6-9d19-c85d07378005%22%2C%22ui_generation%22%3A%20%22%22%2C%22country%22%3A%20999%2C%22web_source%22%3A%20%22TOTAL%22%2C%22subscription_id%22%3A%20%2246789520%22%2C%22base_product%22%3A%20%22FRO%20-%20After%20Trial%22%2C%22user_id%22%3A%208914774%2C%22account_id%22%3A%2010000019%2C%22email%22%3A%20%22wuhanxiang%40dahetouzi.com.cn%22%2C%22date_range%22%3A%20%222020.10-2020.12%22%2C%22entity_id%22%3A%20%22bebe.com%22%2C%22entity_name%22%3A%20%22bebe.com%22%2C%22domain_type%22%3A%20%22WITH_SUBDOMAINS%22%2C%22main_category%22%3A%20%22Lifestyle%22%2C%22sub_category%22%3A%20%22Fashion%20and%20Apparel%22%2C%22custom_category_id%22%3A%20null%7D',
+'referer': 'https://pro.similarweb.com/',
+'sec-ch-ua': '"Chromium";v="88", "Google Chrome";v="88", ";Not A Brand";v="99"',
+'sec-ch-ua-mobile': '?0',
+'sec-fetch-dest': 'empty',
+'sec-fetch-mode': 'cors',
+'sec-fetch-site': 'same-origin',
+'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36',
+'x-requested-with': 'XMLHttpRequest',
+'x-sw-page': 'https://pro.similarweb.com/#/website/worldwide-overview/bebe.com/*/999/2020.10-2020.12?webSource=Total',
+'x-sw-page-view-id': 'ccecca7d-1349-4972-a616-7b361ada04c0',
+}
+
+marketingchannelsurl='https://pro.similarweb.com/widgetApi/WebsiteOverviewDesktop/TrafficSourcesOverview/PieChart?country=999&from=2020%7C10%7C01&includeSubDomains=true&isDaily=false&isWindow=false&keys=shop.billboard.com&timeGranularity=Monthly&to=2020%7C12%7C31&webSource=Deskto'
+response=requests.get(url=marketingchannelsurl,headers=headers)
+print(response.content.decode())
