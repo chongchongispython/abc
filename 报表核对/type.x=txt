@@ -1,0 +1,43 @@
+0 AA
+1 Radar #
+2 Component
+3 Version
+4 Product
+5 SerialID
+6 Mfg Site
+7 Config Summary
+8 MPN
+9 WOM
+10 Work Order
+11 Title
+12 Component
+13 Issue
+14 Title Recall
+15 compTIA
+16 Description
+17 Assignee
+18 Date Radar Last Assigned To Comp
+19 Days Since Last Comp Assignment
+20 Date Radar Last Assigned To EGR
+21 Days Since Last EGR Assignment
+22 Priority
+23 State
+24 FA0
+25 FA1
+26 FA2
+27 FA3 Category
+28 FA3
+29 Corrective Action
+30 Diagnosis Entry
+31 Date Created (PDT)
+32 Date Modified (PDT)
+33 Days Open
+34 First 3 in SN
+35 Last 4 in SN
+36 FA0 Category
+37 FA1 Category
+38 Module Raw Data
+39 NTF Hand Carry Assignment Date
+40 NTF Hand Carry Assignee
+41 NTF Hand Carry Feedback
+42 Issue Classification
